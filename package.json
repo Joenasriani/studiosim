@@ -33,9 +33,7 @@
     "eslint-config-next": "16.2.6",
     "typescript": "6.0.3"
   },
-  "packageManager": "npm@11.6.4",
   "engines": {
-    "node": "22.x",
-    "npm": ">=11"
+    "node": "20.x"
   }
 }
