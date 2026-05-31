@@ -3,7 +3,7 @@
 ## Vercel project settings
 
 - Framework preset: Next.js
-- Install command: `npm install`
+- Install command: `npm ci --no-audit --no-fund --prefer-online`
 - Build command: `npm run build`
 - Output directory: leave empty / Vercel default
 - Root directory: repository root
@@ -60,3 +60,8 @@ The AI tutor uses `IMMERSIVE_EDU_SANDBOX` and the `openrouter/free` router only.
 8. Open `/creator`, submit an application, then approve it from `/admin/marketplace`.
 9. Test `/marketplace` listing behavior.
 10. Test a WebXR lesson on Quest Browser before claiming headset readiness.
+
+
+## Node runtime
+
+Use Node.js 22.x in Vercel Project Settings.
